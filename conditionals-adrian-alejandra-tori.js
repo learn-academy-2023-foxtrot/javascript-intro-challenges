@@ -45,5 +45,23 @@ if (trafficLight === "green") {
 } 
 
 // Write a statement that takes two variables that are numbers and outputs the larger number. If the numbers are equal, output "the numbers are the same".
-
+var numberOne = 20
+var numberTwo = 20
+if (numberOne > numberTwo) {
+    console.log(numberOne);
+} else if (numberOne === numberTwo) {
+    console.log("the numbers are the same");
+} else {
+    console.log(numberTwo);
+}
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
+var num = 15
+if (num % 2 === 0) {
+    console.log("this number is even");
+} else if (num % 2 === 1) {
+    console.log("this number is odd");
+} else if (num === 0) {
+    console.log("this number is zero");
+} else {
+    console.log("no number found");
+}
