@@ -16,3 +16,24 @@
     console.log("tori".includes("e"))
 // Write the code that will log the character at the first index of the string.
 // Write the code that will log the string in all uppercase letters.
+let firstName = "Adrian"
+console.log(firstName.charAt(0));
+console.log(firstName.indexOf("a"));
+console.log(firstName.toUpperCase());
+
+//Introduction Part Two
+
+const theQuestion = "life, the universe, and everything"
+const theAnswer = 42;
+
+console.log(theAnswer / 2);//divides evenly
+console.log(theAnswer % 3); //21
+console.log(theQuestion.length); //34
+console.log(theQuestion.length / 2); // 34 / 17
+console.log(theQuestion.length + theAnswer);
+console.log(theQuestion.indexOf("f"));
+console.log(theQuestion + ' ' + theAnswer);
+console.log(theQuestion.charAt('0'));
+console.log(theQuestion.slice(5, 18));
+console.log(theQuestion.slice(23, 34));
+console.log(theQuestion.charAt(theQuestion.length - 1))
