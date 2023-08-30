@@ -8,3 +8,25 @@
 // console.log(45 / 5)  Output: 9
 // write the code that will log the output of 5 to the power of 7.
 // console.log(5 ** 7) Output:78125
+
+// Is 34 divided by 3 greater than 67 divided by 2?
+// console.log(34 / 3 > 67 / 2)
+// Output: False
+
+// Does 5 evaluate to the same as "5"?
+// console.log(5 == "5")
+// Output: True
+// console.log(5 === "5")
+// Output: false
+
+// Does 5 strictly equal "5"?
+// console.log(5 === "5")
+// Output: false
+
+// Does !3 strictly equal to 3?
+// console.log(!3 === 3)
+// Output: false
+
+// Does "learn".length strictly equal to 5 and "student".length strictly equal 7? 
+// console.log("learn".length === 5 && "student".length === 7)
+// Output: True
