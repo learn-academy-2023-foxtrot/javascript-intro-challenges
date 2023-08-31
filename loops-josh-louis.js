@@ -36,3 +36,48 @@ for(let i = 0; i < nums.length; i++){
 }
 console.log("Smallest Number " + smallestNum)
 //
+// create the code that will log the remainder of each number when divided by 2.
+for(let i = 0; i < nums.length; i++){
+    console.log(nums[i] % 2)
+}
+const myString = "learn student"
+
+var letter = 0
+
+for (let i = 0; i < myString.length; i++) {
+    if (myString[i] === "e") {
+        letter++ 
+    }
+}
+console.log(letter)
+var otherChar = " "
+
+for (let i = 0; i < myString.length; i+=2) {
+    otherChar += myString[i]
+}
+console.log(`${otherChar}`)
+
+// STRETCH GOALS
+for (let i = 5; i <= 15; i++) {
+    if ( i % 2 !== 0) {
+        console.log(`${i} is odd`)
+    }
+    else {
+        console.log(`${i} is even`)
+    }
+}
+
+for (let i = 1; i <= 100; i++) {
+     if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FIZZ BUZZ")
+    } 
+    else if (i % 3 === 0)  {
+        console.log("FIZZ")
+    } 
+    else if (i % 5 === 0 ) {
+        console.log("BUZZ")
+    } 
+    else {
+        console.log(i)
+    }
+}
