@@ -43,3 +43,11 @@
 // var combinedNumSet = secondNumSet.concat(numSet)
 // console.log(combinedNumSet)
 // Output: [0, 2, 13, 6, 8, 4, 2, 12]
+
+var numSet = [2, 13, 6, 8, 4, 2]
+//write the code that finds the index of the first apperance of the number 2
+console.log(numSet.indexOf(2))
+//output 0
+
+// write the code that finds the index of the last apperance of the number 2 
+console.log(numSet.lastIndexOf(2));
