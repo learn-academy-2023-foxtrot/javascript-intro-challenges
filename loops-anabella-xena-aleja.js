@@ -22,3 +22,21 @@ for(let index= 0; index < 21; index = index + 1){
     }
 }
 // Expected output: ODD, 2, ODD, 4, ODD, 6 ...etc
+
+const nums = [3, 57, -9, 20, 67]
+// Create the code that will log the largest number from the array.
+    // for(let i=0; i< nums.length; i++){
+    //  if(nums[i]>largest){
+        // console.log(nums.sort())
+    //  }
+    //  console.log(nums.pop())
+    // }
+// Create the code that will log the smallest number from the array.
+    // console.log(nums.shift())
+// Create the code that will log the remainder of each number when divided by 2.
+    for(let index= 0; index < nums.length; index = index + 1){
+        console.log(nums[index] % 2)
+    } 
+        
+       
+// Expected output: 1, 1, -1, 0, 1
