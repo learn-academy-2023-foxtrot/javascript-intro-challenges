@@ -22,3 +22,20 @@ for (let index = 0; index < 21; index++) {
         console.log(index)
     }
 }
+
+const nums = [3, 57, -9, 20, 67]
+// Create the code that will log the largest number from the array.
+// console.log(nums.sort()) //Values from least to greatest
+//console.log(nums.pop()) //Removing last value of array
+// Create the code that will log the smallest number from the array.
+//console.log(nums.sort().reverse().pop())
+// Create the code that will log the remainder of each number when divided by 2.
+console.log(nums)
+//console.log(nums.push(-9))
+//console.log(nums.unshift(67))
+//var newNums = 
+console.log("Nums Array", nums)
+for(let i = 0; i < nums.length; i++){
+    console.log("Remainders", nums[i] % 2)
+}
+// Expected output: 1, 1, -1, 0, 1
