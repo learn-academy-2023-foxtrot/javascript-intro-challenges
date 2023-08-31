@@ -39,3 +39,14 @@ for(let i = 0; i < nums.length; i++){
     console.log("Remainders", nums[i] % 2)
 }
 // Expected output: 1, 1, -1, 0, 1
+
+const myString = "learn student"
+// Create the code that will log the number of times the letter "e" occurs in the string.
+
+for (let index = 0; index < 2; index++) {
+    console.log(myString.split(""))
+    if (myString [index] === "e") {
+        console.log(myString[index].length)
+    }
+}
+// Create the code that will log every other character in the string.
