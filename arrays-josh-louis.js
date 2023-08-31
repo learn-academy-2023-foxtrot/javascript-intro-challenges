@@ -6,8 +6,26 @@ console.log(groceryList)
 groceryList.push("granola")
 console.log(groceryList)
 //
-groceryList.includes("chips", "dip")
-if (groceryList === true) {
-    console.log("chips", " dip")
-}
+console.log(groceryList.slice(0, 2))
+
+groceryList.reverse()
+groceryList.push("beans")
+console.log(groceryList.slice(3))
 //
+var numbers = [2 ,4 ,6 ,8 ,10]
+
+numbers.reverse()
+numbers.push(0)
+console.log(numbers.reverse())
+
+numbers.push(12)
+console.log(numbers)
+
+numbers.reverse()
+numbers.pop()
+console.log(numbers.reverse())
+
+var numbers2 = [0]
+
+console.log(numbers2.concat(numbers))
+
