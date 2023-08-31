@@ -40,3 +40,13 @@ const nums = [3, 57, -9, 20, 67]
         
        
 // Expected output: 1, 1, -1, 0, 1
+
+const myString = "learn student"
+// Create the code that will log the number of times the letter "e" occurs in the string.
+
+// for (let index= 0; index < myString.length; index = index + 1){
+    console.log(myString.split(""))
+    
+// }
+
+// Create the code that will log every other character in the string.
