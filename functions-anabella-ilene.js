@@ -31,10 +31,33 @@ const multiply=(one, two)=>{
     console.log(multiply(34, 45))
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+const divisibleBy = (numOne, numTwo) => {
+    if(numOne%2 === 0){
+    return `${numOne} is evenly divisible by ${numTwo}`
+    } 
+}
+    console.log(divisibleBy(10, 5))
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+const assignGrade = (numScore) => {
+    if(numScore >= 90){
+        return "A"
+    } else if(numScore >= 80){
+        return "B"
+    } else if(numScore >= 70){
+        return "C"
+    } else if(numScore >= 60){
+        return "D"
+    } else {
+        return "F"
+    }
+}    
+    console.log(assignGrade(75))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+const isLonger = (stringOne, ) => {
+    
+}
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
